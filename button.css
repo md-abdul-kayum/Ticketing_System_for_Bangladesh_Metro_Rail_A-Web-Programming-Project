@@ -1,0 +1,47 @@
+.btn{
+    padding: 10px 10px;
+    background-color: #A62C2B;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-family: trebuchet ms;
+    margin-top: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #56C596;
+    color: black;
+    box-shadow: 0 0 5px #56C596, 0 0 10px #56C596, 0 0 15px #56C596;
+    font-weight: bold;
+}
+.rset:hover{
+    cursor: pointer;
+    background-color: #A62C2B;
+    color: white;
+    box-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 15px orange;
+    transition: .5s ease;
+}
+.sign:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 5px rgb(123, 245, 123), 0 0 10px rgb(123, 245, 123), 0 0 15px rgb(123, 245, 123);
+    transition: .5s ease;
+}
+
+.rset{
+    background: rgb(233, 174, 65);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign{
+    background: rgb(123, 245, 123);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,181 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #72B6C3 ;
+    padding: 20px 0px 20px 0px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.aboutus{
+	font-family: Verdana;
+}
+#clr2{
+    background-color:  #72B6C3;
+}
+#p1{
+    text-align:center ;
+    
+}
+.container {
+  background-color: #D6EAF8 ;
+  border-radius: 20px;
+  padding: 80px;
+}
+.welcome{
+	margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: black;
+  font-weight: bold;
+	font-family: Helvetica, Comic Sans, cursive;
+	font-size: 38px;
+	text-align: center;
+	line-height: 50px;
+  /* background-color: lightcyan;
+  border-radius: 5px; */
+	/* text-shadow: 2px 5px 0 rgba(0,0,0,0.23); */
+}
+
+ .myDiv {
+  border-radius: 5px;
+  background-color: #D6EAF8 ; 
+  padding: 20px;
+}
+.marque{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #FDFEFE;
+	
+}
+.mylogin {
+  border-radius: 5px;
+  background-color: #D6EAF8 ;
+  padding: 20px;
+  font-family:Didot, serif; 
+  font-size: 20px;
+}
+.signup {
+  
+  font-family:Didot, serif; 
+  font-size: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 1px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 1px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.btn-style
+{
+  width: 20%;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside{
+  text-align: center;
+}
+.pp{
+  font-size: medium;
+}
+
+.mainheading{
+
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #50AAB4 ;
+	font-family: Helvetica, Comic Sans, cursive;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+	}	
+
+.signupheading{
+
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #50AAB4 ;
+  font-weight: bold;
+	font-family: Helvetica, Comic Sans MS, Comic Sans, cursive;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+  margin-top: 10px;
+  background: white;
+  display: inline-block;
+  border-radius: 3px;
+ 
+	}	
+
+.hh{
+	font-weight: 100;
+  text-align: center;
+	font-size: 40px;
+	font-family: Georgia, serif;
+  margin-top: 0;
+}
+.forr{
+  margin-left: 200px;
+}
+.lin{
+  color: black;
+}
+
+.jumbotron{
+  background: url(t11.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+/* .jumbotron .overly{
+  background: #D6EAF8;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+} */
+
+td{
+  text-align: center;
+}
+th{
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.15rem;
+    /* border: 0px; */
+}
+.nav-link:hover{
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+}
